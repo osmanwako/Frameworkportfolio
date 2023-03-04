@@ -1,0 +1,59 @@
+* {
+   box-sizing: border-box;
+  font-family: "Poppins", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  text-decoration: none;
+  list-style: none;
+}
+
+.txtd {
+    color: #344563;
+  }
+  
+  .txt1 {
+    color: #091e42;
+  }
+  
+  .txt2 {
+    color: #6070ff;
+  }
+  
+  .txt3 {
+    color: #253858;
+  }
+  
+  .txt4 {
+    color: #7f8cff;
+  }
+  
+  .txt5 {
+    color: #396df2;
+  }
+  
+  .txt6 {
+    color: #6b778c;
+  }
+  
+  .fsw-7 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+  }
+  
+#introductionheader{
+    background-image: url("./images/mobile/introductionbg.svg");
+    background-position: 0 60px;
+    background-repeat: no-repeat;
+    background-size: 100% 90%;
+}
+
+.link-img {
+    height: 20px;
+    width: 20px;
+    margin-right: 20px;
+  }
+@media (min-width: 768px) {
+    #introductionheader {
+      background-image: url("./images/desktop/introductionbg.svg");
+    }
+  }
