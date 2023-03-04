@@ -6,6 +6,11 @@
   list-style: none;
 }
 
+.bg-blue {
+  background: #6070FF;
+  border-top-left-radius: 15%;
+}
+
 .txtd {
     color: #344563;
   }
@@ -39,10 +44,16 @@
     font-size: 40px;
     line-height: 52px;
   }
-  
+
 #introductionheader{
     background-image: url("./images/mobile/introductionbg.svg");
     background-position: 0 60px;
+    background-repeat: no-repeat;
+    background-size: 100% 90%;
+}
+#contactmeheaderid{
+  background-image: url("./images/mobile/contactbg.svg");
+    background-position: 0 10px;
     background-repeat: no-repeat;
     background-size: 100% 90%;
 }
@@ -52,8 +63,17 @@
     width: 20px;
     margin-right: 20px;
   }
+
+  .footer-section{
+     border-color: #000;
+     height: 10px;
+     border: 2px solid #000;
+  }
 @media (min-width: 768px) {
     #introductionheader {
       background-image: url("./images/desktop/introductionbg.svg");
+    }
+    #contactmeheaderid {
+      background-image: url("./images/desktop/contactbg.svg");
     }
   }
